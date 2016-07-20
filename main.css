@@ -69,6 +69,7 @@ div{
     width:25%;
     box-sizing:border-box;
     position: relative;
+    cursor: pointer;
 }
 
 .nav1>li:hover .submenu{
@@ -116,4 +117,7 @@ nav1>li:last-child{
     background:red;
     border-radius: 50%;
     text-align: center;
+}
+body {
+    min-height: 2500px;
 }
